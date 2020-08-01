@@ -13,6 +13,10 @@
 - textlint などのツールは使っていない
 - 設定は https://scrapbox.io/sta-book15/ こっち
     - つまみ食いしただけであり、本文とはあまり一貫性取れてない
+- エディタ
+    - 秀丸エディタをカスタマイズしている
+    - [stakiran/hidemaru_markdown: 秀丸エディタで Markdown 執筆環境を整える](https://github.com/stakiran/hidemaru_markdown)
+        - これのダーク版
 
 ## ライセンス
 ありません。
