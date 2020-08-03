@@ -3,6 +3,9 @@
 
 ![手元での作業風景 with 秀丸エディタ](https://user-images.githubusercontent.com/23325839/89089110-b583d780-d3d6-11ea-8fd4-e04a384516b2.png)
 
+## 原稿
+- [1](https://raw.githubusercontent.com/stakiran/isemuge/master/isemuge1.md)
+
 ## 原稿について
 - ポメラで書いた下書きをこっちにアップロード、校正などの残り作業をやる
 - 文法
