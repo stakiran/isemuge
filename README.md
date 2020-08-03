@@ -13,6 +13,7 @@
     - 話単位を見出しにしている
     - そのままカクヨムの textare にコピペすることを前提にしている
         - レンダリングでは読みづらい
+        - [Raw](https://raw.githubusercontent.com/stakiran/isemuge/master/isemuge1.md) の方がだいぶマシ
 - textlint などのツールは使っていない
 - 設定は https://scrapbox.io/sta-book15/ こっち
     - つまみ食いしただけであり、本文とはあまり一貫性取れてない
