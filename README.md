@@ -16,7 +16,8 @@
         - [Raw](https://raw.githubusercontent.com/stakiran/isemuge/master/isemuge1.md) の方がだいぶマシ
 - textlint などのツールは使っていない
 - 設定は https://scrapbox.io/sta-book15/ こっち
-    - つまみ食いしただけであり、本文とはあまり一貫性取れてない
+    - 本文や頭の中とあまり一貫性は取れていない
+    - マスターは本文や頭の中の方
 - エディタ
     - 秀丸エディタをカスタマイズしている
     - [stakiran/hidemaru_markdown: 秀丸エディタで Markdown 執筆環境を整える](https://github.com/stakiran/hidemaru_markdown)
