@@ -5,8 +5,12 @@
 
 :warning: **ネタバレを含むためご注意ください!!**
 
-## 原稿
+## 作品ページ
+- [やっと自殺できたのに異世界転生で防御力∞とか舐めてんのか？（えすた） - カクヨム](https://kakuyomu.jp/works/1177354054918168559)
+
+## 原稿など
 - [1](https://raw.githubusercontent.com/stakiran/isemuge/master/isemuge1.md)
+- [設定資料 - Scrapbox](https://scrapbox.io/sta-book15/)
 
 ## 原稿について
 - ポメラで書いた下書きをこっちにアップロード、校正などの残り作業をやる
@@ -17,13 +21,13 @@
         - レンダリングでは読みづらい
         - [Raw](https://raw.githubusercontent.com/stakiran/isemuge/master/isemuge1.md) の方がだいぶマシ
 - textlint などのツールは使っていない
-- 設定は https://scrapbox.io/sta-book15/ こっち
-    - 本文や頭の中とあまり一貫性は取れていない
-    - マスターは本文や頭の中の方
 - エディタ
     - 秀丸エディタをカスタマイズしている
     - [stakiran/hidemaru_markdown: 秀丸エディタで Markdown 執筆環境を整える](https://github.com/stakiran/hidemaru_markdown)
         - これのダーク版
+- 設定資料の使い方
+    - 本文や頭の中とあまり一貫性は取れていない
+    - マスターは本文や頭の中の方
 
 ## ライセンス
 ありません。
