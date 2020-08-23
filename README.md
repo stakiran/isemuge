@@ -10,6 +10,7 @@
 
 ## 原稿など
 - [1](https://raw.githubusercontent.com/stakiran/isemuge/master/isemuge1.md)
+- [2](https://raw.githubusercontent.com/stakiran/isemuge/master/isemuge2.md)
 - [設定資料 - Scrapbox](https://scrapbox.io/sta-book15/)
 
 ## 原稿について
