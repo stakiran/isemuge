@@ -8,13 +8,15 @@
 ## 作品ページ
 - [やっと自殺できたのに異世界転生で防御力∞とか舐めてんのか？（えすた） - カクヨム](https://kakuyomu.jp/works/1177354054918168559)
 
-## 原稿など
+## 原稿と設定資料
 - [1](https://raw.githubusercontent.com/stakiran/isemuge/master/isemuge1.md)
 - [2](https://raw.githubusercontent.com/stakiran/isemuge/master/isemuge2.md)
 - [3](https://raw.githubusercontent.com/stakiran/isemuge/master/isemuge3.md)
 - [設定資料 - Scrapbox](https://scrapbox.io/sta-book15/)
 
-## 原稿について
+## How to write
+
+### 原稿
 - ポメラで書いた下書きをこっちにアップロード、校正などの残り作業をやる
 - 文法
     - markdown
@@ -31,12 +33,12 @@
     - 本文や頭の中とあまり一貫性は取れていない
     - マスターは本文や頭の中の方
 
-## 予約投稿について
+### 予約投稿
 - 1巻分(10～20万文字)の原稿を一通り完成させた後に開始する
 - 1日2話ずつ、時間帯は 07:00 と 17:00
     - 分は適当。07:11 とか 07:01 とか 07:39 とか
 
-## 全体プロセス
+### 全体プロセス
 1巻分の予約投稿を終えるまで
 
 - 1: プロットや設定をこねこね
@@ -54,6 +56,14 @@
     - プレビューで推敲（主にルビチェック）
     - 予約
     - 本文を原稿ファイルにもコピペしてコミット更新
+
+### gtdlist と inbox について
+- [isemuge.gtdlist](isemuge.gtdlist) は GTD でいうところのインボックス
+    - 思いついたネタなをメモしておく
+- [inbox.md](inbox.md) は GTD でいうところの資料（のネタリスト）
+    - インボックスのネタを適当なカテゴリにまとめておく
+
+2020/12/17 導入してみた。inbox は予約投稿終えたタイミング（次部の検討時）でガッと整理するのが良さそう。
 
 ## ライセンス
 ありません。
