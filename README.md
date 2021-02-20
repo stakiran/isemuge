@@ -9,9 +9,9 @@
 - [やっと自殺できたのに異世界転生で防御力∞とか舐めてんのか？（えすた） - カクヨム](https://kakuyomu.jp/works/1177354054918168559)
 
 ## 原稿と設定資料
-- [1](https://raw.githubusercontent.com/stakiran/isemuge/master/isemuge1.md)
-- [2](https://raw.githubusercontent.com/stakiran/isemuge/master/isemuge2.md)
-- [3](https://raw.githubusercontent.com/stakiran/isemuge/master/isemuge3.md)
+- [1](https://raw.githubusercontent.com/stakiran/isemuge/master/1.md)
+- [2](https://raw.githubusercontent.com/stakiran/isemuge/master/2.md)
+- [3](https://raw.githubusercontent.com/stakiran/isemuge/master/3.md)
 - [設定資料 - Scrapbox](https://scrapbox.io/sta-book15/)
 
 ## How to write
