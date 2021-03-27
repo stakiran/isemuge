@@ -7,6 +7,15 @@
 - Pandoc 2.13
 - Amazon kindlegen v2.9
 
+## How to write draft.md
+- i.md を append する
+- i.md の一番最初の見出しを目立たせる
+    - 以下は i=2 の場合
+        - before: `# 初仕事`
+        - after: `# === 第二部　初仕事`
+    - 別になくてもいい
+    - が、たぶん部の区切りわからなくて少し読みづらい気がする
+
 ## How to build on your local
 - 1: draft.md を仕上げる
 - 2: convert.py で「markdownとして読みやすく表示される形式」に変換
@@ -38,7 +47,9 @@ with ~~PCのKindle側で読み込んだ後、paperwhite側を再起動~~
 
 - やったけど転送されないです
 
-## 作業メモ
+## === 作業メモ
+
+## convert.py 設計
 日向で使ったやつ
 
 - before
