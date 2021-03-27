@@ -111,34 +111,20 @@ def get_subsectionized_lines(lines):
             new_lines.append(line)
             continue
 
-        if line == '# プロローグ':
-            new_lines.append(line)
-            continue
+        # [見出し構造]
+        #
+        # # プロローグ
+        # ## 展開
+        # # 転生
+        # ## 第１話　転生
+        # ## 第２話　理不尽
+        # ...
+        #
+        # - 既に読みやすく整ってるのでいじらない
+        # - 話数がついてるので「第n部」みたいな区切り見出しも入れない
 
-        # '# 第'
-        # '# ＝'
-        # '# ５'
 
-        s = line[2]
-        if s=='第':
-            # 部, 大見出しにする
-            new_lines.append(line)
-            continue
-        if s=='＝':
-            # 章, 中見出しにする
-            # ただし邪魔な記号は取り除く
-            newline = line.replace('＝　', '').replace('　＝', '').replace('＝', '')
-            new_lines.append('#{}'.format(newline))
-            continue
-        if s!='１':
-            # 節, 小見出しにする
-            # - ……と思ったが、あまり見出しが多すぎてもうっとうしいので
-            #   空行で自然な区切りにしてみる.
-            # - ただし '# １' の前には入れない
-            # 
-            new_lines.append('<br><br>')
-            new_lines.append('　　　　　　◆　　◆　　◆')
-            new_lines.append('<br><br><br>')
+        new_lines.append(line)
 
     return new_lines
 
