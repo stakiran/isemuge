@@ -66,8 +66,7 @@ def get_converted_lines(lines):
             is_sentence_line = True
 
         if is_sentence_line and count_blankline_continuous==0:
-            if not(is_prev_line_section):
-                new_lines.append('')
+            new_lines.append('')
             new_lines.append(line)
             # update state
             # -> nothing
@@ -122,7 +121,6 @@ def get_subsectionized_lines(lines):
         #
         # - 既に読みやすく整ってるのでいじらない
         # - 話数がついてるので「第n部」みたいな区切り見出しも入れない
-
 
         new_lines.append(line)
 
