@@ -7,8 +7,33 @@
 - Pandoc 2.13
 - Amazon kindlegen v2.9
 
-## How to use
+## How to build on your local
 - 1: draft.md を仕上げる
 - 2: convert.py で「markdownとして読みやすく表示される形式」に変換
 - 3: 2 を pandoc で HTML
     - 表示確認はこれを見る
+- 4: 3 の HTML を kindlegen で mobi に変換
+    - mobi ファイルは Kindle デスクトップアプリで見れる
+    - ファイル名ごとに一つの本しか登録できないので、ビルドし直すたびに端末側データを削除する必要アリ
+- 5: 4 の mobi ファイルを Kindle 端末に転送
+
+## How to send to your kindle device
+with パーソナルドキュメント
+
+- 手順: [Amazon.co.jp ヘルプ: Eメールアドレスを追加しKindleライブラリでドキュメントを受信する](https://www.amazon.co.jp/gp/help/customer/display.html?nodeId=GX9XLEVV8G4DB28H)
+- 設定画面: https://www.amazon.co.jp/mn/dcw/myx.html#/home/settings/payment
+- [サポート形式](https://www.amazon.co.jp/gp/help/customer/display.html?nodeId=G5WYD9SAF7PGXRNA)
+- 要約すると
+    - 「このメアドに送れば端末に転送できるよ」的なメアドを登録すればいい
+    - mobi, html, docs, pdx
+    - epubは対応していない
+- 送信方法
+    - パーソナルドキュメントメアド宛に、mobiファイル添付して送る
+    - 件名は適当に
+    - 本文はなしでいい
+- Q: paperwhite側に反映されるのはいつ？
+    - 2021/03/27 11:36:40 頃試したところ、1分以内に同期された
+
+with ~~PCのKindle側で読み込んだ後、paperwhite側を再起動~~
+
+- やったけど転送されないです
