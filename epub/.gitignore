@@ -1,0 +1,7 @@
+*.epub
+*.html
+*.mobi
+book-conversionLog.txt
+
+# generated contents by the script
+book.md

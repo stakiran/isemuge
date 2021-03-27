@@ -1,0 +1,41 @@
+
+/* 縦書き めくりが横書きのままで使いづらいので無し */
+/*
+body {
+  -epub-writing-mode: vertical-rl;
+  writing-mode: tb-rl;
+  direction: ltr;
+}
+*/
+
+/* 見出しを枠線で強調 */
+
+h1 {
+  background-color: #eeeeee;
+  border: 1px ridge #000000;
+  padding-left: 4px;
+}
+
+h2 {
+  border-left: 6px solid #000000;
+  padding-left: 4px;
+}
+
+h3 {
+  border-bottom: 1px dotted #000000;
+}
+
+h4 {
+  border-left: 1px dotted #000000;
+}
+
+/* 改行位置がほんの少しずれるのを回避する */
+p {
+  text-align: justify;
+}
+
+
+/* 段落間は小さめで */
+p {
+  margin: 0;
+}
