@@ -16,6 +16,7 @@
 - [5](https://raw.githubusercontent.com/stakiran/isemuge/master/5.md)
 - [6](https://raw.githubusercontent.com/stakiran/isemuge/master/6.md)
 - [7](https://raw.githubusercontent.com/stakiran/isemuge/master/7.md)
+- [8](https://raw.githubusercontent.com/stakiran/isemuge/master/8.md)
 - [設定資料 - Scrapbox](https://scrapbox.io/sta-book15/)
 
 ## How to write
