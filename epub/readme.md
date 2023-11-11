@@ -26,7 +26,13 @@
     - ファイル名ごとに一つの本しか登録できないので、ビルドし直すたびに端末側データを削除する必要アリ
 - 5: 4 の mobi ファイルを Kindle 端末に転送
 
-## How to send to your kindle device
+## How to send to your kindle device2
+- https://www.amazon.co.jp/sendtokindle からD&Dで送れる
+    - が、処理されるの遅いかも。mobiだと1分で認識されるのにこれだと5分経っても処理が終わらん
+
+アップデートした: [KindleへのMOBIドキュメントの送信に関する最新情報 - stakiran研究所](https://scrapbox.io/sta/Kindle%E3%81%B8%E3%81%AEMOBI%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E3%81%AE%E9%80%81%E4%BF%A1%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%9C%80%E6%96%B0%E6%83%85%E5%A0%B1)
+
+## ❌How to send to your kindle device1
 with パーソナルドキュメント
 
 - 手順: [Amazon.co.jp ヘルプ: Eメールアドレスを追加しKindleライブラリでドキュメントを受信する](https://www.amazon.co.jp/gp/help/customer/display.html?nodeId=GX9XLEVV8G4DB28H)
