@@ -18,18 +18,24 @@
 - [7](https://raw.githubusercontent.com/stakiran/isemuge/master/7.md)
 - [8](https://raw.githubusercontent.com/stakiran/isemuge/master/8.md)
 - [9](https://raw.githubusercontent.com/stakiran/isemuge/master/9.md)
+- [10](https://raw.githubusercontent.com/stakiran/isemuge/master/10.md)
 - [設定資料 - Scrapbox](https://scrapbox.io/sta-book15/)
 
 ## How to write
 
 ### 原稿
-- ポメラで書いた下書きをこっちにアップロード、校正などの残り作業をやる
+- 基本
+    - 10章から変えた
+    - ❌ポメラで書いた下書きをこっちにアップロード、校正などの残り作業をやる
+    - ⭕最初から PC で行う
+        - プロットや設定は[stakiran/hidemaru_scb](https://github.com/stakiran/hidemaru_scb)で詰める
+        - 下書き以降は Markdown で書く（後述）
 - 文法
-    - markdown
+    - Markdown
     - 話単位を見出しにしている
-    - そのままカクヨムの textare にコピペすることを前提にしている
+    - そのままカクヨムのテキスト欄にコピペすることを前提にしている
         - レンダリングでは読みづらい
-        - [Raw](https://raw.githubusercontent.com/stakiran/isemuge/master/isemuge1.md) の方がだいぶマシ
+        - [Raw](https://raw.githubusercontent.com/stakiran/isemuge/master/1.md) の方がだいぶマシ
 - textlint などのツールは使っていない
 - エディタ
     - 秀丸エディタをカスタマイズしている
