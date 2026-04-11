@@ -135,3 +135,13 @@
 ```
 1girl, solo, young woman, beautiful, large breasts, apron, guild receptionist, gentle smile, domestic atmosphere, fantasy, guild hall background
 ```
+
+## イリーナ（ダグリン将軍・ブーガの右腕）
+
+- 20代後半、身長145cm、小柄だが胸は大きい
+- 短剣をかんざし代わりに髪に挿している
+- ノースリーブミニワンピ、脇・大腿・谷間が露出
+
+```
+1girl, solo, short woman, petite, large breasts, sleeveless mini dress, cleavage, bare shoulders, dagger hair ornament, kanzashi, confident smirk, fantasy, medieval
+```
