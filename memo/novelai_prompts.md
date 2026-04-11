@@ -116,9 +116,22 @@
 1boy, solo, muscular, large build, sturdy, rugged man, intelligent eyes, village leader, casual medieval clothing, fantasy, village background, night scene
 ```
 
----
+## フレア（三姉妹・次女）
 
-補足:
-- アキナ・フユナは本文中に外見描写がほぼないため省略（フユナは「幼い」とだけ、アキナは読書好きとだけ）
-- 必要に応じて `masterpiece, best quality, highly detailed` などの品質タグや negative prompt を追加してください
-- ナツナのバトルモード衣装など、場面ごとに変えたい場合は別途対応可能
+- 10代前半、スレンダーでスポーティー、肌が綺麗
+- 半袖タイトな服、質素でぼろい
+- ジト目が特徴
+
+```
+1girl, solo, young teenage girl, slender body, small breasts, athletic build, beautiful skin, half-lidded eyes, sharp gaze, short sleeve tight shirt, simple worn clothing, fantasy, village background
+```
+
+## ユレア（三姉妹・長女）
+
+- 23歳、美人で人気者、胸が大きい
+- エプロン姿のギルド受付嬢
+- 優しい微笑み、所帯じみたお姉さん
+
+```
+1girl, solo, young woman, beautiful, large breasts, apron, guild receptionist, gentle smile, domestic atmosphere, fantasy, guild hall background
+```
