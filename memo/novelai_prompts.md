@@ -176,3 +176,14 @@
 ```
 1girl, solo, servant, maid uniform, serving tea, tea set, stoic, quiet, composed, elegant, fantasy, medieval,Black hair, dignified, standing by.
 ```
+
+## ミーシィ＆マーシィ（鳥人姉妹）
+
+- 鳥人（ハーピィ）、羽根のついた腕、かぎ爪
+- ミーシィ（妹）: 豊満、脳天気、無邪気
+- マーシィ（姉）: 妹狂い、嗜虐的な笑み、舌なめずり
+- 🐰 +The man has a look of exasperation on his face.
+
+```
+2girls, 1boy, harpy girls, feathered arms, talons, wings, sisters, surrounding a man, predatory smile, licking lips, playful, teasing, flirtatious, boy cornered, fantasy, sky background, The man has a look of exasperation on his face.
+```
