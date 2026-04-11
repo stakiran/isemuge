@@ -145,3 +145,34 @@
 ```
 1girl, solo, short woman, petite, large breasts, sleeveless mini dress, cleavage, bare shoulders, dagger hair ornament, kanzashi, confident smirk, fantasy, medieval
 ```
+
+## ヤンデ・エルドラ（エルフ王女）
+
+- エルフ（濃い緑の髪、長い耳）、美人、ものぐさ
+- 王族のドレスは板についていない、普段はローブ
+- 無愛想だが楚々としている
+- 🐰 +small breasts
+
+```
+1girl, solo, elf, long ears, dark green hair, beautiful, aloof expression, elegant, royal dress, slender body, fantasy, forest background, small breasts
+```
+
+## ハナ・シャーロット（大貴族の令嬢）
+
+- 金髪、竜巻のような巻き毛（ハナロール）
+- 貴族のドレス、胸はC～Eで盛り具合を変える
+- 淑女の外面、シキ王に甘える一面も
+
+```
+1girl, solo, blonde hair, drill hair, ringlet curls, noble dress, aristocrat, elegant, refined, young woman, fantasy, castle background
+```
+
+## チウ（シャーロット家・上級使用人）
+
+- ハナ専属の使用人、寡黙で楚々としている
+- 給仕姿、ティーセットを扱う
+- 🐰 +Black hair, dignified, standing by.
+
+```
+1girl, solo, servant, maid uniform, serving tea, tea set, stoic, quiet, composed, elegant, fantasy, medieval,Black hair, dignified, standing by.
+```
