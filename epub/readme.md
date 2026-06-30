@@ -17,6 +17,7 @@
 - 2: convert.py で「markdownとして読みやすく表示される形式」に変換
 - 3: 2 を pandoc で HTML
     - 表示確認はこれを見る
+    - この book.html は web_head.html を head に埋め込むので、スマホでも読みやすい（docs/ にそのまま置ける）
 - 4: 3 の HTML を kindlegen で mobi に変換
     - mobi ファイルは Kindle デスクトップアプリで見れる
     - ファイル名ごとに一つの本しか登録できないので、ビルドし直すたびに端末側データを削除する必要アリ
