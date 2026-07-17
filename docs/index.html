@@ -187,8 +187,87 @@
       h2 { font-size: 1.12em; }
     }
   </style>
+  <!-- ダークテーマ対応。OSの設定に自動追従し、右上のボタンで手動切り替えもできる。
+       ボタン本体は web_body.html にあり、--include-before-body で挿入される。 -->
+  <meta name="color-scheme" content="light dark" />
+  <style type="text/css">
+    :root {
+      --bg: #fdfdfd;
+      --fg: #333;
+      --muted: #666;
+      --link: #1a7f5a;
+      --border: #ddd;
+      --toc-bg: #f5f5f5;
+    }
+    :root[data-theme="dark"] {
+      --bg: #17191c;
+      --fg: #c9c9c9;
+      --muted: #999;
+      --link: #6cc79f;
+      --border: #3a3d42;
+      --toc-bg: #22252a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: #17191c;
+        --fg: #c9c9c9;
+        --muted: #999;
+        --link: #6cc79f;
+        --border: #3a3d42;
+        --toc-bg: #22252a;
+      }
+    }
+    html { background-color: var(--bg); color: var(--fg); }
+    body { background: var(--bg); color: var(--fg); }
+    h1 { border-bottom-color: var(--border); }
+    h2.author { color: var(--muted); }
+    #TOC { background: var(--toc-bg); }
+    a, a:visited { color: var(--link); }
+    hr { background-color: var(--border); }
+    blockquote { border-left-color: var(--border); color: var(--muted); }
+    tbody { border-top-color: var(--border); border-bottom-color: var(--border); }
+    th { border-top-color: var(--border); }
+    #theme-toggle {
+      position: fixed;
+      top: 0.7em;
+      right: 0.7em;
+      width: 2.2em;
+      height: 2.2em;
+      font-size: 16px;
+      line-height: 1;
+      background: var(--toc-bg);
+      color: var(--fg);
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 10;
+    }
+    @media print {
+      #theme-toggle { display: none; }
+    }
+  </style>
+  <script type="text/javascript">
+  (function () {
+    var t = null;
+    try { t = localStorage.getItem('theme'); } catch (e) {}
+    if (t === 'dark' || t === 'light') {
+      document.documentElement.setAttribute('data-theme', t);
+    }
+  })();
+  function toggleTheme() {
+    var root = document.documentElement;
+    var isDark = root.getAttribute('data-theme') === 'dark' ||
+      (root.getAttribute('data-theme') !== 'light' &&
+       window.matchMedia('(prefers-color-scheme: dark)').matches);
+    var next = isDark ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+  }
+  </script>
 </head>
 <body>
+<!-- ダークテーマ切り替えボタン。スタイルとスクリプトは web_head.html にある。 -->
+<button id="theme-toggle" type="button" onclick="toggleTheme()" aria-label="ライト／ダークテーマ切り替え" title="テーマ切り替え">🌓</button>
 <div id="header">
 <h1 class="title">やっと自殺できたのに異世界転生で防御力∞とか舐めてんのか？</h1>
 <h2 class="author">吉良野すた</h2>

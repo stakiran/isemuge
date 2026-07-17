@@ -1,6 +1,10 @@
 *.epub
 *.html
 *.mobi
+
+# ビルドの入力ファイルは管理対象にする
+!web_head.html
+!web_body.html
 book-conversionLog.txt
 
 # generated contents by the script

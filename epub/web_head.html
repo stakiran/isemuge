@@ -1,0 +1,119 @@
+<!-- Web(GitHub Pages)向けの head 追記。スマホでも読みやすくするため。 -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style type="text/css">
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans",
+                 "Yu Gothic", "YuGothic", "Meiryo", sans-serif;
+    font-size: 18px;
+    line-height: 1.9;
+    color: #333;
+    background: #fdfdfd;
+    margin: 0 auto;
+    padding: 1.4em 1.2em 5em;
+    max-width: 42em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  h1, h2, h3 { line-height: 1.45; font-weight: bold; }
+  h1 {
+    font-size: 1.45em;
+    margin: 2.2em 0 0.8em;
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid #ddd;
+  }
+  h2 { font-size: 1.2em; margin: 2em 0 0.7em; }
+  p { margin: 0; }
+  #header { text-align: center; margin-bottom: 2.5em; }
+  h1.title { font-size: 1.4em; border: none; line-height: 1.5; }
+  h2.author { font-size: 1em; color: #666; font-weight: normal; margin-top: 0.5em; }
+  #TOC { background: #f5f5f5; padding: 1em 1.2em; border-radius: 6px; margin-bottom: 2em; }
+  #TOC ul { padding-left: 1.2em; margin: 0.3em 0; }
+  #TOC li { margin: 0.2em 0; line-height: 1.6; }
+  a { color: #1a7f5a; }
+  #TOC a { text-decoration: none; }
+  img { max-width: 100%; height: auto; }
+
+  @media (max-width: 600px) {
+    body { font-size: 17px; line-height: 1.85; padding: 1.1em 0.95em 4em; }
+    h1 { font-size: 1.3em; }
+    h2 { font-size: 1.12em; }
+  }
+</style>
+<!-- ダークテーマ対応。OSの設定に自動追従し、右上のボタンで手動切り替えもできる。
+     ボタン本体は web_body.html にあり、--include-before-body で挿入される。 -->
+<meta name="color-scheme" content="light dark" />
+<style type="text/css">
+  :root {
+    --bg: #fdfdfd;
+    --fg: #333;
+    --muted: #666;
+    --link: #1a7f5a;
+    --border: #ddd;
+    --toc-bg: #f5f5f5;
+  }
+  :root[data-theme="dark"] {
+    --bg: #17191c;
+    --fg: #c9c9c9;
+    --muted: #999;
+    --link: #6cc79f;
+    --border: #3a3d42;
+    --toc-bg: #22252a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17191c;
+      --fg: #c9c9c9;
+      --muted: #999;
+      --link: #6cc79f;
+      --border: #3a3d42;
+      --toc-bg: #22252a;
+    }
+  }
+  html { background-color: var(--bg); color: var(--fg); }
+  body { background: var(--bg); color: var(--fg); }
+  h1 { border-bottom-color: var(--border); }
+  h2.author { color: var(--muted); }
+  #TOC { background: var(--toc-bg); }
+  a, a:visited { color: var(--link); }
+  hr { background-color: var(--border); }
+  blockquote { border-left-color: var(--border); color: var(--muted); }
+  tbody { border-top-color: var(--border); border-bottom-color: var(--border); }
+  th { border-top-color: var(--border); }
+  #theme-toggle {
+    position: fixed;
+    top: 0.7em;
+    right: 0.7em;
+    width: 2.2em;
+    height: 2.2em;
+    font-size: 16px;
+    line-height: 1;
+    background: var(--toc-bg);
+    color: var(--fg);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+  }
+  @media print {
+    #theme-toggle { display: none; }
+  }
+</style>
+<script type="text/javascript">
+(function () {
+  var t = null;
+  try { t = localStorage.getItem('theme'); } catch (e) {}
+  if (t === 'dark' || t === 'light') {
+    document.documentElement.setAttribute('data-theme', t);
+  }
+})();
+function toggleTheme() {
+  var root = document.documentElement;
+  var isDark = root.getAttribute('data-theme') === 'dark' ||
+    (root.getAttribute('data-theme') !== 'light' &&
+     window.matchMedia('(prefers-color-scheme: dark)').matches);
+  var next = isDark ? 'light' : 'dark';
+  root.setAttribute('data-theme', next);
+  try { localStorage.setItem('theme', next); } catch (e) {}
+}
+</script>
