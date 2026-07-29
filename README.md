@@ -9,16 +9,7 @@
 - [やっと自殺できたのに異世界転生で防御力∞とか舐めてんのか？（えすた） - カクヨム](https://kakuyomu.jp/works/1177354054918168559)
 
 ## 原稿と設定資料
-- [1](https://raw.githubusercontent.com/stakiran/isemuge/master/1.md)
-- [2](https://raw.githubusercontent.com/stakiran/isemuge/master/2.md)
-- [3](https://raw.githubusercontent.com/stakiran/isemuge/master/3.md)
-- [4](https://raw.githubusercontent.com/stakiran/isemuge/master/4.md)
-- [5](https://raw.githubusercontent.com/stakiran/isemuge/master/5.md)
-- [6](https://raw.githubusercontent.com/stakiran/isemuge/master/6.md)
-- [7](https://raw.githubusercontent.com/stakiran/isemuge/master/7.md)
-- [8](https://raw.githubusercontent.com/stakiran/isemuge/master/8.md)
-- [9](https://raw.githubusercontent.com/stakiran/isemuge/master/9.md)
-- [10](https://raw.githubusercontent.com/stakiran/isemuge/master/10.md)
+- [1](https://raw.githubusercontent.com/stakiran/isemuge/master/1.md) [2](https://raw.githubusercontent.com/stakiran/isemuge/master/2.md) [3](https://raw.githubusercontent.com/stakiran/isemuge/master/3.md) [4](https://raw.githubusercontent.com/stakiran/isemuge/master/4.md) [5](https://raw.githubusercontent.com/stakiran/isemuge/master/5.md) [6](https://raw.githubusercontent.com/stakiran/isemuge/master/6.md) [7](https://raw.githubusercontent.com/stakiran/isemuge/master/7.md) [8](https://raw.githubusercontent.com/stakiran/isemuge/master/8.md) [9](https://raw.githubusercontent.com/stakiran/isemuge/master/9.md) [10](https://raw.githubusercontent.com/stakiran/isemuge/master/10.md)
 - [設定資料 - Scrapbox](https://scrapbox.io/sta-book15/)
 
 ## Website
