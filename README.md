@@ -21,6 +21,11 @@
 - [10](https://raw.githubusercontent.com/stakiran/isemuge/master/10.md)
 - [設定資料 - Scrapbox](https://scrapbox.io/sta-book15/)
 
+## Website
+- 本文: <https://stakiran.github.io/isemuge/>
+- 年表: <https://stakiran.github.io/isemuge/timeline.html>
+- キャラ一覧: ★できたら追加
+
 ## Directory
 2026-07-30 時点
 
