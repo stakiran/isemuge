@@ -5,7 +5,10 @@
 # ビルドの入力ファイルは管理対象にする
 !web_head.html
 !web_body.html
+!timeline_head.html
+!timeline_body.html
 book-conversionLog.txt
 
 # generated contents by the script
 book.md
+timeline.md

@@ -23,6 +23,14 @@
     - ファイル名ごとに一つの本しか登録できないので、ビルドし直すたびに端末側データを削除する必要アリ
 - 5: 4 の mobi ファイルを Kindle 端末に転送
 
+## How to build 日別年表（docs/timeline.html）
+- ソースは `../memo/chronology/03-timeline.md`
+- `2_build_timeline_to_html.bat` を叩くと `../docs/timeline.html` が直接更新される
+- 中身
+    - 1: `timeline_convert.py` で見出しを整形（重複 h1 の除去、h3 -> h2 の繰り上げ）
+    - 2: pandoc で HTML 化。`web_head.html` + `timeline_head.html` を head に、`timeline_body.html` を本文前に埋め込む
+- 電子書籍側（book.html/mobi）とは無関係。年表は Web 公開のみ
+
 ## How to send to your kindle device2
 - https://www.amazon.co.jp/sendtokindle からD&Dで送れる
     - が、処理されるの遅いかも。mobiだと1分で認識されるのにこれだと5分経っても処理が終わらん

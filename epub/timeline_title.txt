@@ -1,0 +1,6 @@
+---
+title: いせむげ 日別年表
+author: 吉良野すた
+rights: © 2021 吉良野すた
+language: ja-JP
+...

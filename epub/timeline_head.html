@@ -1,0 +1,17 @@
+<!-- 年表ページ向けの head 追記。web_head.html の後に読み込ませて差分だけ上書きする。 -->
+<style type="text/css">
+  /* 年表は日付見出しが百件以上あるので、目次は畳んでスクロールさせる */
+  #TOC { max-height: 60vh; overflow-y: auto; }
+
+  /* 年表本文は箇条書きが主。本文ページ用の p { margin: 0 } だと詰まりすぎる */
+  p { margin: 0.8em 0; }
+  ul { padding-left: 1.4em; }
+  li { margin: 0.35em 0; }
+
+  /* 「全体像」「関連ファイル」の表が狭い画面でも溢れないように */
+  table { width: 100%; border-collapse: collapse; }
+  th, td { word-break: break-word; }
+
+  #backlink { margin: 0 0 1.6em; font-size: 0.9em; }
+  #backlink a { text-decoration: none; }
+</style>
