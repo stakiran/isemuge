@@ -1,3 +1,7 @@
 __pycache__/
 _yokodan/
+
+# 最初出すときは goji_TIMESTAMP にする、これは管理しない
 goji_*.md
+# 落ち着いたら goji1.md のように変える、これは管理する（傾向の分析など学びになる）ため
+
